@@ -1,0 +1,130 @@
+.top-container {
+  background-color: #ffd460;
+  padding-top: 100px;
+  margin-bottom: 50px;
+  position: relative;
+  color: #f07b3f;
+  line-height: 2;
+}
+
+.profile-pic {
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Chakra Petch', sans-serif;
+  color: #2d4059;
+}
+
+h1 {
+  margin: 40px auto 0 auto;
+  font-family: 'Rock Salt', cursive;
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Martel', serif;
+  margin: 10px auto;
+  font-weight: normal;
+}
+
+h3{
+  color: #ea5455;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 80px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+a{
+  color: #f07b3f;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #2d4059;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 40px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.web-dev{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.mathematics{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+  height: 10px;
+  border-width: 10px;
+  border-color: #f07b3f;
+}
+
+.profile{
+  margin-bottom: 40px;
+}
+
+.skills{
+  margin-top: 40px;
+}
+
+.bottom-container{
+  background-color: #ffd460;
+  padding: 25px;
+}
+
+.contact-me{
+  padding: 40px 0;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #EA5455;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #FFD460;
+  -webkit-box-shadow: 1px 1px 10px 0 #000000;
+  -moz-box-shadow: 1px 1px 10px 0 #000000;
+  box-shadow: 1px 1px 10px 0 #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #FFF000;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
